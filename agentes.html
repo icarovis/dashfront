@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="agentes.js"></script>
+    <link href="agentes.css" rel="stylesheet">
+    <title>.: Agentes Financeiros :. </title>
+</head>
+
+<body onload="carregainfo()" >
+    <div class="container">
+        <div class="row">
+            <div class="col-10 text-center">
+            </div>
+            <div class="col-2">
+                <button type="button" class="btn btn-primary" onclick="loggout()">SAIR</button>
+            </div>
+        </div>
+        <div class="row">
+            <div id="fotoUser" class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                *** aqui vai a foto do usuario ***
+            </div>
+            <div id="infoUser" class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                *** aqui vao as infos do usuario***
+            </div>
+        </div>
+
+        <!-- div correspondente ao drop-down para selecionar agentes financeiros -->
+        <label for="rowAgente">Selecione o Agente Financeiro</label>
+        <div class="row" id="rowAgente">
+            <div class="col-10">
+                <div id="divAgente">
+                    *** aqui vai o select para os agentes financeiros ***
+                </div>
+            </div>
+            <div class="col-2">
+                <button type="button" class="btn btn-primary" onclick="seleciona()">DashBoard</button>
+            </div>
+        </div>
+
+        <div class="=row">
+            <div class="col-12">
+                <h4>
+                    <center> TOP 10 Agentes FInanceiros</center>
+                </h4>
+            </div>
+        </div>
+
+        <div id="tabelaAgentes">
+            .. Aqui vai a tabela dos top 10 agentes ...
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

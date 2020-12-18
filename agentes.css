@@ -1,0 +1,17 @@
+.linhaPar{
+    background-color: rgba(0, 24, 236, 0.541);
+}
+
+.linhaImpar{
+    background-color: rgba(0, 140, 255, 0.637);
+}
+#titulo{
+    background-color: rgb(57, 145, 228);
+}
+
+.grafico{
+    background-color: rgba(204, 7, 7, 0.555);
+}
+body{
+    background-color: rgba(196, 194, 194, 0.424);
+}
