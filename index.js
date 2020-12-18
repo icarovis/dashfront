@@ -1,7 +1,7 @@
 function logar(){
     var txtLogin = document.getElementById("txtLogin").value;
     var txtSenha = document.getElementById("txtSenha").value;
-    console.log(txtSenha);
+    //console.log(txtSenha);
 
     if (txtLogin == ""){
         alert("Campo login obrigatorio");
