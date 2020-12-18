@@ -11,7 +11,7 @@ function carregaDash() {
     var idAgente = strId.substr(4);
     console.log("ID recuperado = " + idAgente);
 
-    fetch("http://localhost:8085/totaisconsolidado?id=" + idAgente)
+    fetch("http://dashboardback-icaro.herokuapp.com/totaisconsolidado?id=" + idAgente)
         .then(res => res.json())
         .then(lista => preencheDash(lista));
 }

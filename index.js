@@ -30,7 +30,7 @@ function logar(){
         }
     };
 
-    fetch("https://dashboardback-icaro.herokuapp.com/login", cabecalho).then(res => trataStatus(res));
+    fetch("http://dashboardback-icaro.herokuapp.com/login", cabecalho).then(res => trataStatus(res));
 }
 
 function trataStatus(res){

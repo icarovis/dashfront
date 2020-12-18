@@ -20,7 +20,7 @@ function carregainfo(){
     // passo 2 - tratar o resultado gerando uma tabela para exibir 1 agente financeiro por linha
 
     // passo 1
-    fetch("http://localhost:8085/agentes")
+    fetch("http://dashboardback-icaro.herokuapp.com/agentes")
         .then(resposta => resposta.json())  // se houver resposta, extrai o json dela
         .then(lista => preencheLista(lista));   // se conseguiu extrair a lista, chama a função com essa lista
 
