@@ -30,7 +30,7 @@ function logar(){
         }
     };
 
-    fetch("http://dashboardback-icaro.herokuapp.com/Login", cabecalho).then(res => trataStatus(res));
+    fetch("http://localhost:8088/login", cabecalho).then(res => trataStatus(res));
 }
 
 function trataStatus(res){
